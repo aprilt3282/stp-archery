@@ -1,0 +1,147 @@
+body {
+  width:1000px;
+  margin:0px auto;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+*{
+    body-sizing: border-box;
+}
+
+header {
+    height: 120px;
+    background: none;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0, 30px;
+    overflow: hidden;
+    background-color: #523e33;
+}
+
+ul.classes{
+    background-color: white;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    float:right;
+}
+
+li a.class-listing{
+    color: blue;
+    text-align: left;
+    padding: 6px 16px;
+    text-decoration: underline;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    float:left;
+}
+h1#title{
+    float:right;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+h2#subhead{
+    background-color: white;
+    width: 50%;
+    float:left;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 70px;
+    background-color: darkolivegreen;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+h2#left-subhead{
+    padding-top: 20px;
+}
+
+div.body-aside{
+    float:left;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    clear:right;
+    width: 40%;
+}
+
+div.name-headshot{
+    width: 25%;
+    float: left;
+}
+
+div.headshot-description{
+    width: 30%;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: darkolivegreen;
+
+}
+div.headshot-description-first{
+    width: 30%;
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: darkolivegreen;
+}
+footer{
+    clear:both;
+    text-align: center;
+    background-color: #523e33;
+    color: white;
+    font-size: 14px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+div h3{
+  color: #523e33;
+}
+
+article h2.intro{
+    padding-top: 50px;
+}
+
+p.quarter-intro{
+  width: 35%;
+  float:left;
+  padding-right: 40px;
+}
+
+div.three-quart-desc{
+  width: 35%;
+  float:left;
+  padding-right: 5%;
+}
+
+div.instructor{
+  width: 30%;
+}
+
+div.services{
+  width:30%;
+  float:left;
+  
+}
+div.image-header{
+  height: 200px;
+  float:right;
+  width:60%
+}
